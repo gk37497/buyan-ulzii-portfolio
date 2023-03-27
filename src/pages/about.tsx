@@ -22,31 +22,39 @@ function CareerItem({
 
 export default function Index() {
   return (
-    <Page title="Hey">
+    <Page title="About">
       <div>
         <Text>
-          My name is Namsraijamts. I was born and raised in Ulaanbaatar
-          (Mongolia). I love trying modern technologies and learning new things.
+          I am 19, middle male child of the family, my hobbies are playing
+          guitar and listening to music
         </Text>
-        <TitledBox title="What i do">
-          I enjoy building applications to solve problems. My front-end
-          framework of choice is React (Next.js). In the last few years, I have
-          primarily written JavaScript and Typescript.
+        <TitledBox title="Academic">
+          In the first semester of the first year I took 6 classes and hold a
+          gpa of 3.4. Now I am taking 5 classes and participating the english
+          speaking club of my university. As an extracurricular activity I do
+          some volunteer works in an organisation called Uncage and acquired
+          some certifications.
         </TitledBox>
-        <TitledBox title="Career">
+        <TitledBox title="Skills">
           <ul>
+            <CareerItem title="- English, B2 level" description="" />
             <CareerItem
-              title="Frontend Developer"
-              description="Phronesis Enterprises Sep 2022 - present, Ulaanbaatar (Mongolia)"
+              title="- Computer skill Excel, powerpoint, photoshop"
+              description=""
             />
             <CareerItem
-              title="Mobile and Web Developer"
-              description="MongolId Jun 2021 - present, Ulaanbaatar (Mongolia)"
+              title="- Commucation skill and problem-solving ability"
+              description=""
             />
           </ul>
         </TitledBox>
-        <TitledBox title="What Else?">
-          In my spare time I enjoy taking photos and listening good musics.
+        <TitledBox title="Job Experiences">
+          <ul>
+            <li>
+              - 2 months of working as a trainee teacher in an language centre
+            </li>
+            <li>- 3 months of working in a non-profit organisation `Uncage`</li>
+          </ul>
         </TitledBox>
       </div>
     </Page>

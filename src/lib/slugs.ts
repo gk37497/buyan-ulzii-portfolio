@@ -12,20 +12,20 @@ export const slugs: Slug[] = [
     name: 'About',
     slug: '/about',
   },
-  {
-    name: 'Bookmarks',
-    slug: '/bookmarks',
-  },
-  {
-    name: 'Projects',
-    slug: '/projects',
-  },
-  {
-    name: 'Resume',
-    slug: '/resume',
-  },
-  {
-    name: 'Connect',
-    slug: '/connect',
-  },
+  //   {
+  //     name: 'Bookmarks',
+  //     slug: '/bookmarks',
+  //   },
+  //   {
+  //     name: 'Projects',
+  //     slug: '/projects',
+  //   },
+  //   {
+  //     name: 'Resume',
+  //     slug: '/resume',
+  //   },
+  //   {
+  //     name: 'Connect',
+  //     slug: '/connect',
+  //   },
 ];
